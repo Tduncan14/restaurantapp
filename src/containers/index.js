@@ -6,6 +6,7 @@ import Laurels from "./Laurels/Laurels";
 import Findus from "./Findus/Findus";
 import Chef from './Chef/Chef';
 import AboutUs from "./AboutUs/AboutUs";
+import Gallery from "./Gallery/Gallery";
 
 
 
@@ -13,8 +14,7 @@ import AboutUs from "./AboutUs/AboutUs";
 
 
 
-
-export {Header,Footer,Intro,Menu,Laurels,Findus,Chef,AboutUs}
+export {Header,Footer,Intro,Menu,Laurels,Findus,Chef,AboutUs,Gallery}
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Laurels() {
+export default function Gallery() {
   return (
     <div>
-      <h1>Laurels</h1>
+      
     </div>
   )
 }
