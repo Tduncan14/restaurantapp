@@ -12,8 +12,8 @@ import images from '../../constants/images';
 
   return (
     <nav class="app__navbar">
-      <div class="app_navbar-logo">
-           <img src={images.gericht} alt="app logo"/>
+      <div class="app__navbar-logo">
+           <img src={images.logo} alt="app logo"/>
       </div>
 
       <ul className="app__navbar-links">
