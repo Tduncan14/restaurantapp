@@ -8,13 +8,14 @@ function App() {
     <Navbar/>
     <Header/>
     <AboutUs/>
+    {/*
     <Menu/>
     <Chef/>
     <Intro/>
     <Laurels/>
     <Gallery/>
     <Findus/>
-    <Footer/>
+    <Footer/> */}
     
     </div>
   );
