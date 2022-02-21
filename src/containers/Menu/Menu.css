@@ -1,4 +1,4 @@
-.app_SpecialMenu{
+.app__SpecialMenu{
     flex-direction:column;
     background-color:var(--color-black);
 }
