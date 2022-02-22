@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './MenuItem.css';
 
 const MenuItem =({title,price,tags}) => {
   return (
@@ -10,14 +11,14 @@ const MenuItem =({title,price,tags}) => {
 
               {/* self closing tag */}
 
-              <div className="app__menuitem-dash"/>
+              <div className="app__menuitem-dash" />
 
               <div className="app__menuitem-name">
                 <p className="p__cormorant" >{price}</p>
               </div>
 
               <div className="app__menuitem-sub">
-                <p className="p_opensans" style={{color:'#AAA'}}> {tags}</p>
+                <p className="p__opensans" style={{color:'#AAA'}}> {tags}</p>
 
               </div>
             </div>
