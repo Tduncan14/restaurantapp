@@ -35,6 +35,9 @@ const Intro = () =>{
        />
 
 
+
+<div className="app__video-overlay flex__center">
+
        <div className="app__video-overlay_circle flex__center"
        onClick={handleVideo}>
 
@@ -50,6 +53,7 @@ const Intro = () =>{
            
 
 
+         </div>
          </div>
 
        </div>
