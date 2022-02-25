@@ -1,10 +1,17 @@
-import React from 'react'
 
-export default function Footer() {
+import React,{useState} from 'react'
+import {FooterOverlay,Newsletter} from '../../components'
+import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+
+
+
+const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
-      
+    <div className="app__footer section__padding">
+      <FooterOverlay />
+      <Newsletter />
     </div>
   )
 }
+
+export default Footer

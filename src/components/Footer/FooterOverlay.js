@@ -1,9 +1,12 @@
-import React from 'react'
+import React ,{useState} from 'react'
 
-export default function FooterOverlay() {
+const FooterOverlay = () => {
   return (
     <div>
-      
+      overlay
     </div>
   )
 }
+
+
+export default FooterOverlay

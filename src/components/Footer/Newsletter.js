@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Newsletter() {
+const Newsletter = () => {
   return (
     <div>
-      
+      newsletter
     </div>
   )
 }
+
+export default Newsletter
